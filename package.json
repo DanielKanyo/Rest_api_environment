@@ -1,0 +1,33 @@
+{
+  "name": "work_diary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"node server.js\" \"node-sass -w public/css -o public/css\" \"webpack -w\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielKanyo/Work_diary.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielKanyo/Work_diary/issues"
+  },
+  "homepage": "https://github.com/DanielKanyo/Work_diary#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "concurrently": "^3.5.0",
+    "webpack": "^3.6.0"
+  }
+}
